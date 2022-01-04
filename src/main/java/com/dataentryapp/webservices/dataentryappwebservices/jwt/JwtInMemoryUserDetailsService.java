@@ -14,6 +14,8 @@ public class JwtInMemoryUserDetailsService implements UserDetailsService {
 
   static List<JwtUserDetails> inMemoryUserList = new ArrayList<>();
 
+  // User: sami
+  // Password: dummy
   static {
     inMemoryUserList.add(new JwtUserDetails(1L, "sami",
         "$2a$10$3zHzb.Npv1hfZbLEU5qsdOju/tk2je6W6PnNnY.c1ujWPcZh4PL6e", "ROLE_USER_2"));
